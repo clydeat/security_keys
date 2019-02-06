@@ -3,6 +3,9 @@
 * Template Name : Corporate Plus | Multipurpose Business HTML Template
 * Version       : 1.0
 ==================================== */
+/*.cssmenu {
+	color: red !important;
+}*/
 
 .header-holder-1 {
 	position: absolute;
@@ -14,10 +17,12 @@
 	background: none
 }
 .cssmenu ul li a {
-	color: #fff !important;
-}
+/*	color: #fff !important;
+*/}
 .cssmenu ul li a:hover {
-	color: #FFE0C4 !important
+/*	color: #FFE0C4 !important
+*/	border-bottom: none;
+	text-decoration: none;
 }
 .cssmenu ul ul li a {
 	padding: 15px 18px;
