@@ -1,0 +1,219 @@
+/*==================================
+* Author        : With Html
+* Template Name : Corporate Plus | Multipurpose Business HTML Template
+* Version       : 1.0
+==================================== */
+
+.header-holder-1 {
+	position: absolute;
+	right: 0;
+	left: 0;
+	z-index: 999;
+}
+.upper-header {
+	background: none
+}
+.cssmenu ul li a {
+	color: #fff !important;
+}
+.cssmenu ul li a:hover {
+	color: #FFE0C4 !important
+}
+.cssmenu ul ul li a {
+	padding: 15px 18px;
+	color: #394451 !important;
+	border-bottom: 1px solid #eee;
+}
+.cssmenu ul ul li a:hover {
+	color: #000 !important
+}
+.cssmenu ul ul {
+	top: 90px !important
+}
+.cssmenu ul ul {
+	background: #fff;
+}
+.cssmenu ul ul ul {
+	background: #fff;
+	border-left: 1px solid #eee;
+}
+.cssmenu ul ul ul {
+	top: 0px !important;
+	margin-left: 30px;
+	background: #F7F7F7;
+	border-left: 1px solid #eee;
+}
+.modal-backdrop.in {
+	z-index: 99 !important
+}
+.bs-slider .bs-slider-overlay {
+	background-color: rgba(0,0,0,0.6)
+}
+.introduction {
+	padding: 110px 0;
+	text-align: left;
+}
+.introduction .col-md-7 {
+	padding-right: 80px;
+}
+.short-intro-item {
+	text-align: left;
+}
+.short-intro-item {
+	padding: 20px 70px;
+	position: relative;
+}
+.text-icon {
+	left: 0px;
+	line-height: 50px;
+	position: absolute;
+	top: 10px;
+}
+.text-icon i {
+	position: relative;
+	background: none;
+	color: #485666;
+	padding: 0px;
+	font-size: 40px;
+}
+.text-content {
+	margin: 0;
+	position: relative;
+}
+.short-intro-item:hover .text-content {
+	-webkit-transform: none; /* Safari and Chrome */
+	-moz-transform: none; /* Firefox */
+	-ms-transform: none; /* IE 9 */
+	-o-transform: none; /* Opera */
+	transform: none;
+}
+.short-intro-item .text-content h4 {
+	margin: 0 0 10px 0;
+	font-size: 19px;
+}
+.short-intro-item .text-content h4 a {
+	color: #485666
+}
+.short-intro-item .text-content h4 a:hover {
+	color: #333
+}
+.feature-service .service-icon {
+	text-align: center;
+	padding-top: 20px;
+}
+.feature-service .service-icon i {
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	font-size: 35px;
+	display: inline-block;
+	color: #1C74DF;
+	border: 1px solid #1C74DF;
+	line-height: 70px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.service-block h3 {
+	font-size: 18px;
+}
+.recent-update {
+	background: #fff;
+	border-top: 0;
+	border-bottom: 1px solid #EBEBEB;
+}
+.customer-testimonial-text {
+	background: #1C74DF;
+	border: 1px solid #1C74DF;
+}
+.customer-testimonial-text p, .customer-testimonial-text h5, .customer-testimonial-text h5 span {
+	color: #fff
+}
+.project-gallery .col-md-4 {
+	padding: 1px
+}
+.project-gallery {
+	padding-bottom: 0
+}
+
+@media only screen and (max-width:1199px) {
+.short-intro-item {
+	padding: 7px 0 7px 70px;
+}
+}
+
+@media only screen and (max-width:991px) {
+.search-small-divice {
+	background: #485666;
+	padding: 20px;
+	margin: 0 !important;
+	border-top: 1px solid #fff;
+}
+.custom-search-input {
+	border-radius: 0
+}
+.custom-menu {
+	background: rgba(0, 0, 0, 0.4) !important
+}
+.cssmenu ul ul li a {
+	color: #fff !important;
+}
+.introduction .col-md-7 {
+	padding-right: 15px;
+}
+.introduction-right {
+	padding-top: 40px;
+}
+.short-intro-item {
+	margin: 30px 0
+}
+}
+
+@media only screen and (max-width:991px) {
+.slide-text {
+	top: 50% !important;
+}
+}
+
+/* Mobile Layout */
+@media only screen and (max-width:767px) {
+.middle-information .col-md-8, .middle-information .col-md-4 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.counter:before {
+	left: 10px;
+}
+.project-gallery .col-md-4 {
+	padding: 15px;
+}
+.slide-text>a.btn-default, .slide-text>a.btn-primary, .slide-text>a.btn-danger {
+	font-size: 10px !important;
+	line-height: 10px !important;
+	text-align: center;
+	padding: 10px 15px !important
+}
+}
+
+/* Small Mobile Layout */
+@media only screen and (max-width:480px) {
+.newsletter .form-group .form-control, .newsletter .btn {
+	width: 100%;
+}
+.slide-text {
+	display: none
+}
+}
+
+/* Small Mobile Layout */
+@media only screen and (max-width:380px) {
+.custom-menu {
+	background: rgba(0, 0, 0, 0.8) !important
+}
+.bs-slider .bs-slider-overlay {
+	background-color: rgba(0, 0, 0, .4) !important
+}
+.fact-counter .col-xs-6 {
+	width: 100%;
+}
+}

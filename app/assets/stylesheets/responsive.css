@@ -1,0 +1,279 @@
+
+/* Desktop Layout */
+@media only screen and (max-width:1199px) {
+.cssmenu ul li a {
+	padding: 43px 10px;
+}
+}
+
+/* Tablet Layout */
+@media only screen and (max-width:991px) {
+.logo-holder {
+	text-align: center
+}
+.upper-header-info ul li:last-child {
+	display: none
+}
+.custom-menu {
+	background: #FF7200
+}
+.cssmenu {
+	width: auto;
+}
+.cssmenu.align-center ul {
+	text-align: left
+}
+.cssmenu.align-right > ul > li {
+	float: none
+}
+.cssmenu ul {
+	width: auto;
+}
+.cssmenu .submenuArrow, .cssmenu #indicatorContainer {
+	display: none
+}
+.cssmenu > ul {
+	height: auto;
+	display: block;
+}
+.cssmenu > ul > li {
+	float: none;
+}
+.cssmenu li, .cssmenu > ul > li {
+	display: none
+}
+.cssmenu ul ul, .cssmenu ul ul ul, .cssmenu ul > li:hover > ul, .cssmenu ul ul > li:hover > ul, .cssmenu.align-right ul ul, .cssmenu.align-right ul ul ul, .cssmenu.align-right ul > li:hover > ul, .cssmenu.align-right ul ul > li:hover > ul {
+	position: relative;
+	left: auto;
+	top: auto;
+	opacity: 1;
+	padding-left: 0;
+	padding-right: 0;
+	right: auto
+}
+.cssmenu ul .has-sub::after {
+	display: none
+}
+.cssmenu ul li a {
+	padding: 20px !important;
+	color: #fff !important
+}
+.cssmenu ul li a:hover, .cssmenu ul li:hover {
+	color: #DDEAFB;
+}
+.cssmenu ul ul li a {
+	border: 0;
+	background: none;
+	width: auto;
+	padding: 10px 35px !important;
+	color: #fff;
+	font-size: 16px;
+}
+.cssmenu.align-right ul ul li a {
+	text-align: left
+}
+.cssmenu ul ul li:hover > a {
+	background: none;
+	color: #DDEAFB !important
+}
+.cssmenu ul ul ul a {
+	padding: 8px 50px
+}
+.cssmenu ul ul ul ul a {
+	padding: 8px 65px
+}
+.cssmenu ul ul ul ul ul a {
+	padding: 8px 80px
+}
+.cssmenu ul ul ul ul ul ul a {
+	padding: 8px 95px
+}
+.cssmenu > ul > #menu-button {
+	display: block;
+	cursor: pointer;
+	padding: 0;
+}
+.cssmenu #menu-button > a {
+	padding: 15px 20px !important;
+	color: #fff
+}
+.cssmenu ul.open li, .cssmenu > ul.open > li {
+	display: block;
+	background: #1C74DF;
+	border: none;
+	border-bottom: 1px solid #1A6BCE
+}
+.cssmenu > ul.open > li#menu-button > a {
+	color: #fff;
+	border-bottom: 1px solid #D56000;
+	background: #FF7200
+}
+.cssmenu ul ul::after {
+	display: none
+}
+.cssmenu #menu-button::after {
+	display: block;
+	content: '';
+	position: absolute;
+	height: 3px;
+	width: 22px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	right: 20px;
+	top: 20px
+}
+.cssmenu #menu-button::before {
+	display: block;
+	content: '';
+	position: absolute;
+	height: 3px;
+	width: 22px;
+	border-top: 4px solid #fff;
+	right: 20px;
+	top: 30px
+}
+.cssmenu ul.open #menu-button::after, .cssmenu ul.open #menu-button::before {
+	border-color: #fff
+}
+.cssmenu ul ul {
+	position: absolute;
+	left: -9999px;
+	top: 0!important;
+	opacity: 0;
+	-webkit-transition: opacity .3s ease, top .25s ease;
+	-moz-transition: opacity .3s ease, top .25s ease;
+	-ms-transition: opacity .3s ease, top .25s ease;
+	-o-transition: opacity .3s ease, top .25s ease;
+	transition: opacity .3s ease, top .25s ease;
+	z-index: 1000;
+	border-top: 1px solid #114482;
+	border-left: none;
+}
+.cssmenu ul ul li {
+	background: #12488B!important;
+	padding: 10px 0
+}
+.cssmenu ul ul ul li {
+	background: #12488B!important;
+	padding: 10px 0
+}
+.cssmenu ul ul li a:hover {
+	color: #fff
+}
+.search-large-divice {
+	display: none
+}
+.search-small-divice {
+	display: block;
+	margin: 10px 0 20px 0
+}
+.search-small-divice .search {
+	height: 40px;
+}
+.form-control:focus {
+	box-shadow: none !important
+}
+.middle-information:before {
+	width: 100%;
+}
+.counter:before {
+	background-color: #fff;
+}
+.fact-counter .counter-value {
+	color: #FF7200;
+}
+.fact-counter h4.counter-title {
+	color: #333
+}
+.fact-counter h4.counter-title {
+	margin-top: 20px;
+}
+.middle-information .col-md-8, .middle-information .col-md-4 {
+	margin-left: 0
+}
+.footer-block {
+	margin: 50px 0 20px 0
+}
+.bottom-footer-left {
+	margin-bottom: 0
+}
+.bottom-footer-right .social-link ul {
+	text-align: center
+}
+.top-footer {
+	padding: 30px 0;
+}
+.footer-blog {
+	margin: 55px 0;
+}
+.footer-blog:after {
+	background: #fff;
+}
+.bottom-footer, .bottom-footer ul.social {
+	text-align: center;
+}
+.slide-text {
+	top: 45%;
+}
+.team-details .team-img {
+	margin-bottom: 20px;
+}
+.contact-details .contact-form .form-group {
+	margin: 0;
+}
+.contact-details .contact-form .col-md-6 {
+	margin: 5px 0
+}
+}
+
+/* Mobile Layout */
+@media only screen and (max-width:767px) {
+.upper-header .social-link {
+	display: none;
+}
+.upper-header-info ul {
+	text-align: center
+}
+.slide-text {
+	top: 20%;
+}
+.middle-information .col-md-8, .middle-information .col-md-4 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.counter:before {
+	left: 10px;
+}
+.service-img img {
+	width: 100%;
+}
+.project-gallery .col-md-4 {
+	padding: 15px;
+}
+.contact-details .contact-form, .contact-details .contact-address {
+	padding: 60px 0
+}
+}
+
+/* Small Mobile Layout */
+@media only screen and (max-width:480px) {
+.newsletter .form-group .form-control, .newsletter .btn {
+	width: 100%;
+}
+}
+
+/* Small Mobile Layout */
+@media only screen and (max-width:380px) {
+.upper-header-info ul li:first-child {
+	display: none
+}
+.slide-text {
+	display: none
+}
+.bs-slider .bs-slider-overlay {
+	background: none
+}
+.fact-counter .col-xs-6 {
+	width: 100%;
+}
+}
