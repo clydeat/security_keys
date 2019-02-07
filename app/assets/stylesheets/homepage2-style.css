@@ -7,6 +7,19 @@
 	color: red !important;
 }*/
 
+
+
+.middle-information:before {
+    background-color: #1C74DF;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100% !important;
+    opacity: 0.96;
+}
+
 .header-holder-1 {
 	position: absolute;
 	right: 0;
