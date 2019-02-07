@@ -570,8 +570,8 @@ blockquote {
 	background: #485666;
 	color: #fff;
 	padding: 10px 20px;
-	font-weight: normal;
-	line-height: 50px;
+/*	font-weight: normal;
+*/	line-height: 50px;
 	font-size: 40px;
 	border-radius: 5px;
 	transform: translate3d(0, 0, 0);

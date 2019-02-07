@@ -8,6 +8,18 @@
 }*/
 
 
+.service-img {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+
+.recent-update-img {
+    margin-bottom: 25px;
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
 
 .middle-information:before {
     background-color: #1C74DF;
@@ -75,6 +87,7 @@
 	padding-right: 80px;
 }
 .short-intro-item {
+    font-weight: 600 !important;
 	text-align: left;
 }
 .short-intro-item {
