@@ -7,6 +7,19 @@
 	color: red !important;
 }*/
 
+.service-content-cat {
+    padding: 20px;
+    background: #fff;
+    height: 240px;
+}
+
+
+.service-block h3 {
+    font-size: 17px !important;
+    line-height: 32px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
 
 .service-img {
     position: relative;
@@ -87,7 +100,6 @@
 	padding-right: 80px;
 }
 .short-intro-item {
-    font-weight: 600 !important;
 	text-align: left;
 }
 .short-intro-item {
@@ -146,7 +158,7 @@
 	border-radius: 50%;
 }
 .service-block h3 {
-	font-size: 18px;
+	font-size: 17px;
 }
 .recent-update {
 	background: #fff;
