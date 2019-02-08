@@ -1,57 +1,46 @@
-<!-- Header Section-->
-<header class="header-holder">
-    <div class="main-header">
-        <!-- Top Header Section PARTIE BLEUEEEEEEEE-->
-        <div class="upper-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-sm-8 col-xs-12">
-                        <div class="upper-header-info">
-                            <ul>
-                                <li><a href="tel: +33 6 27 92 23 93"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; +33 6 27 92 23 93</a></li>
-                                <li><a href="mailto: contact@securitykeys.eu"><i class="far fa-envelope" aria-hidden="true"></i> &nbsp; contact@securitykeys.eu</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="social-link">
-                            <ul>
-                                <li><a href="#" title="Facebook" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                <li><a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#" title="Google +" target="_blank"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#" title="Pinterest" target="_blank"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+<!-- Top Header Section PARTIE BLEUEEEEEEEE-->
+<div class="upper-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-8 col-xs-12">
+                <div class="upper-header-info">
+                    <ul>
+                        <li><a href="tel: +33 6 27 92 23 93"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; +33 6 27 92 23 93</a></li>
+                        <li><a href="mailto: contact@securitykeys.eu"><i class="far fa-envelope" aria-hidden="true"></i> &nbsp; contact@securitykeys.eu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="social-link">
+                    <ul>
+                        <li><a href="#" title="Facebook" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                        <li><a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#" title="Google +" target="_blank"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#" title="Pinterest" target="_blank"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!-- Bottom Header Section PARTIE BLANCHEEEEEE-->
-        <div class="bottom-header">
-            <div class="container">
-                <div class="row">
-                    <!-- logo part -->
-                    <div class="col-md-3 col-sm-12 col-xs-12">
-                        <div class="logo-holder">
-                          <%= link_to image_tag('theme-logo.png', alt:'securitykeys', class:'logosecu'), root_path %>
-                        </div>
-                    </div>
-                    <!-- Nav part -->
-                    <div class="col-md-8 col-sm-12 col-xs-12">
-                        <div class="custom-menu">
-                            <div class="cssmenu">
-                                <ul>
-                                    <li><%= link_to('Services',services_path) %></li>
-                                    <li><%= link_to('Protéger',pages_proteger_path) %></li>
-                                    <li><%= link_to('Formations',pages_formations_path) %></li>
-                                    <li><%= link_to('Support',pages_support_path) %></li>
-                                    <li><%= link_to('Contact',pages_contact_path) %></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                 </div>
+    </div>
+</div>
+<!-- Bottom Header Section PARTIE BLANCHEEEEEE-->
+<div class="container">
+    <div class="row">
+        <!-- logo part -->
+        <div class="col-md-3 col-sm-12 col-xs-12">
+            <div class="logo-holder">
+                <%= link_to image_tag('theme-logo.png', alt:'securitykeys', class:'logosecu'), root_path %>
             </div>
         </div>
-    </div>
-</header>
+            <div class="cssmenu">
+                <ul>
+                    <li><%= link_to('Services',services_path) %></li>
+                    <li><%= link_to('Protéger',pages_proteger_path) %></li>
+                    <li><%= link_to('Formations',pages_formations_path) %></li>
+                    <li><%= link_to('Support',pages_support_path) %></li>
+                    <li><%= link_to('Contact',pages_contact_path) %></li>
+                </ul>
+            </div>
+        </div>
+     </div>
+</div>
