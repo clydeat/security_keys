@@ -90,7 +90,8 @@
                     <div class="overlay-link">
                         <div class="link-item">
                             <div class="link-content">
-                                <a href="#" class="more viewmore-1">En savoir plus</a>
+                                <%= link_to 'En savoir plus', services_path, :class => "more viewmore-1" %>
+                                <!-- <a href="#" class="more viewmore-1">En savoir plus</a> -->
                             </div>
                         </div>
                     </div>
@@ -105,7 +106,7 @@
                     <div class="overlay-link">
                         <div class="link-item">
                             <div class="link-content">
-                                <a href="#" class="more viewmore-1">En savoir plus</a>
+                                <%= link_to 'En savoir plus', services_path, :class => "more viewmore-1" %>
                             </div>
                         </div>
                     </div>
@@ -120,7 +121,7 @@
                     <div class="overlay-link">
                         <div class="link-item">
                             <div class="link-content">
-                                <a href="#" class="more viewmore-1">En savoir plus</a>
+                                <%= link_to 'En savoir plus', services_path, :class => "more viewmore-1" %>
                             </div>
                         </div>
                     </div>
@@ -138,7 +139,7 @@
                     <div class="overlay-link">
                         <div class="link-item">
                             <div class="link-content">
-                                <a href="#" class="more viewmore-1">En savoir plus</a>
+                                <%= link_to 'En savoir plus', services_path, :class => "more viewmore-1" %>
                             </div>
                         </div>
                     </div>
@@ -153,7 +154,7 @@
                     <div class="overlay-link">
                         <div class="link-item">
                             <div class="link-content">
-                                <a href="#" class="more viewmore-1">En savoir plus</a>
+                                <%= link_to 'En savoir plus', services_path, :class => "more viewmore-1" %>
                             </div>
                         </div>
                     </div>
@@ -168,7 +169,7 @@
                     <div class="overlay-link">
                         <div class="link-item">
                             <div class="link-content">
-                                <a href="#" class="more viewmore-1">En savoir plus</a>
+                                <%= link_to 'En savoir plus', services_path, :class => "more viewmore-1" %>
                             </div>
                         </div>
                     </div>
@@ -206,7 +207,7 @@
                             <i class="fas fa-money-bill-wave-alt"></i>
                         </div>
                         <div class="why-choose-content">
-                            <h4><a href="http://www.mscit.fr/sk_index.php#">80 % des PME et PMI ne sont pas protégés ni sécurisées. Et vous ?</a></h4>
+                            <h4>80 % des PME et PMI ne sont pas protégés ni sécurisées. Et vous ?</h4>
                         </div>
                     </div>
                     <div class="why-choose-link">
@@ -214,7 +215,7 @@
                             <i class="fas fa-desktop"></i>
                         </div>
                         <div class="why-choose-content">
-                            <h4><a href="http://www.mscit.fr/sk_index.php#">Ordinateur bloqué = impossible de travailler. Avez-vous un plan de continuité d’activité ?</a></h4>
+                            <h4>Ordinateur bloqué = impossible de travailler. Avez-vous un plan de continuité d’activité ?</h4>
                         </div>
                     </div>
                     <div class="why-choose-link">
@@ -222,7 +223,7 @@
                             <i class="fas fa-skull-crossbones"></i>
                         </div>
                         <div class="why-choose-content">
-                            <h4><a href="http://www.mscit.fr/sk_index.php#">Vol d’identité, Code de carte bleue, de vos photos, etc. Que faire ? Comment réagir ?</a></h4>
+                            <h4>Vol d’identité, Code de carte bleue, de vos photos, etc. Que faire ? Comment réagir ?</h4>
                         </div>
                     </div>
                 </div>
@@ -235,7 +236,7 @@
                             <i class="fas fa-comment-medical"></i>
                         </div>
                         <div class="why-choose-content">
-                            <h4><a href="http://www.mscit.fr/sk_index.php#">En 2018, 1000 entreprises disparaîtront à cause d'une attaque par internet. Avez-vous pris vos précautions ?</a></h4>
+                            <h4>En 2018, 1000 entreprises disparaîtront à cause d'une attaque par internet. Avez-vous pris vos précautions ?</h4>
                         </div>
                     </div>
                     <div class="why-choose-link">
@@ -243,7 +244,7 @@
                             <i class="fas fa-lock"></i>
                         </div>
                         <div class="why-choose-content">
-                            <h4><a href="http://www.mscit.fr/sk_index.php#">80% des failles de sécurité sont dues aux utilisateurs. Formez-vous à la sécurité</a></h4>
+                            <h4>80% des failles de sécurité sont dues aux utilisateurs. Formez-vous à la sécurité.</h4>
                         </div>
                     </div>
                     <div class="why-choose-link">
@@ -251,7 +252,7 @@
                             <i class="fas fa-shield-alt"></i>
                         </div>
                         <div class="why-choose-content">
-                            <h4><a href="http://www.mscit.fr/sk_index.php#">Protégez-vous dès maintenant ! SecurityKeys, une assistance complète et efficace.</a></h4>
+                            <h4>Protégez-vous dès maintenant ! SecurityKeys, une assistance complète et efficace.</h4>
                         </div>
                     </div>
                 </div>
@@ -281,7 +282,7 @@
                         <%= link_to image_tag('conseils.jpg', class: 'img-responsive'), services_path %>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">AUDIT & CONSEIL</a></h3>
+                        <h3><%= link_to 'AUDIT & CONSEIL', services_path %></h3>
                         <p>SecurityKeys vous accompagne à définir et mettre en œuvre une nouvelle infrastructure, analyser tous vos problèmes techniques.</p>
                     </div>
                 </div>
@@ -292,7 +293,7 @@
                         <%= link_to image_tag('accompagnement.jpg', class: 'img-responsive'), services_path %>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">ACCOMPAGNEMENT SUR-MESURE</a></h3>
+                        <h3><%= link_to 'ACCOMPAGNEMENT SUR-MESURE', services_path %></h3>
                         <p>SecurityKeys vous fait profiter de son expertise pour vous accompagner pendant toute la durée de vos projets informatiques.</p>
                     </div>
                 </div>
@@ -303,7 +304,7 @@
                         <%= link_to image_tag('serveur.jpg', class: 'img-responsive'), services_path %>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">ASSISTANCE MISE EN LIGNE</a></h3>
+                        <h3><%= link_to 'ASSISTANCE MISE EN LIGNE', services_path %></h3>
                         <p>SecurityKeys étudie avec vous la solution d’hébergement la plus adaptée à vos besoins en fonction de votre activité.</p>
                     </div>
                 </div>
@@ -314,7 +315,7 @@
                         <%= link_to image_tag('securite.jpg', class: 'img-responsive'), services_path %>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">SÉCURITÉ</a></h3>
+                        <h3><%= link_to 'SÉCURITÉ', services_path %></h3>
                         <p>Confidentialité, intégrité et disponibilité des données transitant sur le Système d'Information sont devenues un enjeu majeur.</p>
                     </div>
                 </div>
@@ -325,7 +326,7 @@
                         <%= link_to image_tag('formation.jpg', class: 'img-responsive'), services_path %>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">CONTRAT ANNUEL DE FORMATION</a></h3>
+                        <h3><%= link_to 'CONTRAT ANNUEL DE FORMATION', services_path %></h3>
                         <p>SecurityKeys vous propose de vous aider en formant vos collaborateur ou vous même. Contactez nous pour plus d'informations.</p>
                     </div>
                 </div>
@@ -336,13 +337,15 @@
                         <%= link_to image_tag('depanne.jpg', class: 'img-responsive'), services_path %>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">CONTRAT ANNUEL D'ASSISTANCE</a></h3>
+                        <h3><%= link_to "CONTRAT ANNUEL D'ASSISTANCE", services_path %></h3>
                         <p>Vous rencontrez une difficulté informatique pour des logiciels ou des matériels nous intervenons pour vous aider a trouver une solution.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="viewmore"> <a href="service.html" class="more viewmore-3">PLUS DE DÉTAILS</a> </div>
+        <div class="viewmore"> 
+            <%= link_to 'PLUS DE DÉTAILS', services_path, :class => "more viewmore-3" %>
+        </div>
     </div>
 </section>
 
