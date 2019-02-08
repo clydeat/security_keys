@@ -16,7 +16,7 @@
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 .service-content-cat {
     padding: 20px;
