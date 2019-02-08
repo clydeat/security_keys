@@ -7,6 +7,14 @@
 	color: red !important;
 }*/
 
+.footer-contact ul li span a:hover {
+    text-decoration: none;
+}
+
+.blog-link ul li a:hover {
+    text-decoration: none;
+}
+
 .service-content-cat {
     padding: 20px;
     background: #fff;
