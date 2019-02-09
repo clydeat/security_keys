@@ -7,6 +7,13 @@
 	color: red !important;
 }*/
 
+.titlecond {
+	color: red;
+}
+.conditionsstyle {
+	color: white !important;
+}
+
 .footer-contact ul li span a:hover {
     text-decoration: none;
 }

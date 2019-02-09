@@ -20,4 +20,8 @@ class PagesController < ApplicationController
   def contact
     
   end
+  
+  def conditions
+    
+  end
 end
