@@ -31,6 +31,9 @@ a:hover {
     height: 240px;
 }
 
+.service-block {
+    height: 770px;
+}
 
 .service-block h3 {
     font-size: 17px !important;

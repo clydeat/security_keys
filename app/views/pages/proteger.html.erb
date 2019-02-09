@@ -1,15 +1,11 @@
 <!-- Page title Section-->
 <div class="page-title">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <h2>PROTÉGER</h2>
-            </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <h2>PROTÉGER</h2>
         </div>
     </div>
 </div>
-<div class="clearfix"></div>
-
 <!-- feature-service Section -->
 <section class="feature-service">
     <div class="container">
@@ -24,8 +20,8 @@
                         <%= link_to image_tag('photoserv1.jpg', class: 'img-responsive'), services_path %>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">PROTÉGER VOS SYSTÈMES, COMMENT ÇA MARCHE ....</a></h3>
-                        <p>Vous aider à comprendre comment vous pouvez sécuriser vos données, vos fichiers, vos photos, vos informations clients et les données confidentielles, voilà l'objectif de notre société et le service que nous comptons vous apporter.</p>
+                        <h3><a href="service-details.html">PROTÉGER VOS SYSTÈMES, COMMENT ÇA MARCHE ...</a></h3>
+                        <p>Vous aider à comprendre comment vous pouvez sécuriser vos données, <br> vos fichiers, vos photos, <br>vos informations clients et les données confidentielles, voilà l'objectif <br>de notre société et le service <br>que nous comptons vous apporter.</p>
                     </div>
                 </div>
             </div>
@@ -35,8 +31,8 @@
                         <%= link_to image_tag('photoserv2.jpg', class: 'img-responsive'), services_path %>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">VOUS ÊTES ATTAQUÉ, QUE FAIRE, COMMENT RÉAGIR .....</a></h3>
-                        <p>Comment se défendre si on vous vole vos données bancaires ou votre identité ? Qui prévenir ? Quand prévenir ? Quels sont vos recours ? Comment faire pour redémarrer votre activité ?</p>
+                        <h3><a href="service-details.html">VOUS ÊTES ATTAQUÉ, QUE FAIRE, COMMENT RÉAGIR ...</a></h3>
+                        <p>Comment se défendre si on vous vole <br>vos données bancaires <br>ou votre identité ? <br>Qui prévenir ? <br>Quand prévenir ? <br>Quels sont vos recours ? <br>Comment faire pour redémarrer <br>votre activité ?</p>
                     </div>
                 </div>
             </div>
@@ -47,12 +43,13 @@
                     </div>
                     <div class="service-content">
                         <h3><a href="service-details.html">COMMENT NOUS INTERVENONS :</a></h3>
-                        <p>- Par une analyse de votre demande d'aide - Par une série de conseils de protection. - Par des actions de protection immédiate - Par une prise de main à distance par un ingénieur compétent - Nous nous déplaçons chez vous pour essayer de récupérer vos données, protéger votre système ... - Nous vous aidons a tout ré-installer et à redémarrer le plus rapidement possible.</p>
+                        <p>- Par une analyse <br>de votre demande d'aide <br>- Par une série de conseils <br>de protection. <br>- Par des actions <br>de protection immédiate <br>- Par une prise de main à distance <br>par un ingénieur compétent <br>- Nous nous déplaçons chez vous pour essayer de récupérer vos données, protéger votre système ... <br>- Nous vous aidons a tout ré-installer et à redémarrer le plus rapidement possible.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="viewmore"> <a href="service.html" class="more viewmore-3">View More</a> </div>
+        <div class="viewmore">
+            <%= link_to 'En savoir plus', services_path, :class => "more viewmore-1" %>
+        </div>
     </div>
 </section>
-<div class="clearfix"></div>
