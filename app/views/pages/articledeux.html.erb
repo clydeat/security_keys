@@ -1,1 +1,79 @@
-articledeux toto
+<div class="page-title">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h2>Article</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Recent Update Section -->
+<div class="blog-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h3 class="title">Internet c'est dangereux, avec Security Keys c'est mieux et c'est plus sure.</h3>
+                <p class="date">17 Juillet 2018</p>
+                <%= image_tag('image2.jpg', class: 'img-responsive articlebandeau') %>
+                <p>
+                    Votre monde tourne autour d'internet et de votre ordinateur, ce média qui trace le futur, a facilité la vies et les relations entre les individus mais a beaucoup de faiblesses et de fragilités. Du petit hacker qui bloque votre bureau d'ordinateur à l'employé malveillant qui détruit votre comptabilité ou votre facturation. Que pouvez vous faire contre le petit génie qui manipule l'informatique comme un artiste et qui récolte vos données personnelles, vos photos ou simplement vos données de carte bleue pour les revendre ou simplement les diffuser sans votre accord.
+                </p>
+                <blockquote>
+                    Rencontrez nous et nous vous formerons aux manipulations a réaliser, aux protections simples que vous devez connaître afin de vous protéger.
+                </blockquote>
+                <p>
+                    La sécurité est devenue cruciale pour que votre outil reste opérationnel et sans risque. Faites sécuriser votre ordinateur avec Security Keys. Connectez vous sur SecurityKeys.eu dès maintenant. Nous vous proposons de vous inscrire sur Facebook et l'heureux chanceux pourra gagne un déjeuner a l'atelier des chefs donc n'attendez pas inscrivez vous et likez notre page internet. Merci de nous contacter pour plus d'informations.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Update Section -->
+<section class="recent-update innerpage-recent-update bg-grey">
+    <div class="container">
+        <div class="title">
+            <h2>Autres articles</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="recent-update-block">
+                    <div class="recent-update-img">
+                        <a href="blog-details.html">
+                        <%= link_to image_tag('image1.jpg', class: 'img-responsive'), pages_articleun_path %>
+                        <div class="recent-update-date">
+                            <div class="date">16 </div>
+                            <div class="month">Juin</div>
+                            <div class="year">2018</div>
+                        </div>
+                    </div>
+                    <div class="recent-update-content">
+                        <h3>Internet c'est dangereux, avec SecurityKeys.eu c'est mieux et c'est plus sûre.</h3>
+                        <p>Votre monde tourne autour de votre ordinateur et d'internet, ce média qui trace le futur, a facilité la vie et les relations entre les individus mais a beaucoup de faiblesses et de fragilités.</p>
+                        <%= link_to 'Lire la suite', pages_articleun_path, :class => "more viewmore-4" %>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="recent-update-block">
+                    <div class="recent-update-img">
+                        <%= link_to image_tag('image2.jpg', class: 'img-responsive'), pages_articledeux_path %>
+                        <div class="recent-update-date">
+                            <div class="date">16 </div>
+                            <div class="month">Juin</div>
+                            <div class="year">2018</div>
+                        </div>
+                    </div>
+                    <div class="recent-update-content">
+                        <h3>Proposez a vos amis de nous connaître. Partagez et protégez les des attaques par virus.</h3>
+                        <p>Vous avez envie de partager et d'apprendre à vous protéger des virus, chevaux de Troie, Ramsomware, et autres attaques qui peuvent vous faire tout perdre.</p>
+                        <%= link_to 'Lire la suite', pages_articledeux_path, :class => "more viewmore-4" %>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
