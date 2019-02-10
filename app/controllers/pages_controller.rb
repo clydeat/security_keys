@@ -18,10 +18,14 @@ class PagesController < ApplicationController
   end
 
   def contact
-    
+  end
+
+  def conditions  
+  end
+
+  def articleun
   end
   
-  def conditions
-    
+  def articledeux
   end
 end

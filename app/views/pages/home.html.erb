@@ -280,17 +280,18 @@
                 <div class="item">
                     <div class="recent-update-block">
                         <div class="recent-update-img"> 
-                            <%= link_to image_tag('image1.jpg', class: 'img-responsive'), services_path %>
+                            <%= link_to image_tag('image1.jpg', class: 'img-responsive'), pages_articleun_path %>
                             <div class="recent-update-date">
                                 <div class="date">16</div>
                                 <div class="month">Juin</div>
                                 <div class="year">2018</div>
                             </div>
                         </div>
-                    <div class="recent-update-content">
-                        <h3><a href="http://www.mscit.fr/sk_article1.php">Internet c'est dangereux, avec SecurityKeys.eu c'est mieux et c'est plus sûre.</a></h3>
-                        <p>Votre monde tourne autour de votre ordinateur et d'internet, ce média qui trace le futur, a facilité la vie et les relations entre les individus mais a beaucoup de faiblesses et de fragilités.</p>
-                        <a href="http://www.mscit.fr/sk_article1.php" class="more viewmore-4">Lire la suite</a> </div>
+                        <div class="recent-update-content">
+                            <h3>Internet c'est dangereux, avec SecurityKeys.eu c'est mieux et c'est plus sûre.</h3>
+                            <p>Votre monde tourne autour de votre ordinateur et d'internet, ce média qui trace le futur, a facilité la vie et les relations entre les individus mais a beaucoup de faiblesses et de fragilités.</p>
+                            <%= link_to 'Lire la suite', pages_articleun_path, :class => "more viewmore-4" %>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -298,17 +299,18 @@
                 <div class="item">
                     <div class="recent-update-block">
                         <div class="recent-update-img"> 
-                            <%= link_to image_tag('image2.jpg', class: 'img-responsive'), services_path %>
+                            <%= link_to image_tag('image2.jpg', class: 'img-responsive'), pages_articledeux_path %>
                             <div class="recent-update-date">
                                 <div class="date">16</div>
                                 <div class="month">Juin</div>
                                 <div class="year">2018</div>
                             </div>
                         </div>
-                    <div class="recent-update-content">
-                        <h3><a href="http://www.mscit.fr/sk_article1.php">Proposez a vos amis de nous connaître. Partagez et protégez les des attaques par virus.</a></h3>
-                        <p>Vous avez envie de partager et d'apprendre à vous protéger des virus, chevaux de Troie, Ramsomware, et autres attaques qui peuvent vous faire tout perdre.</p>
-                        <a href="http://www.mscit.fr/sk_article1.php" class="more viewmore-4">Lire la suite</a> </div>
+                        <div class="recent-update-content">
+                            <h3>Proposez a vos amis de nous connaître. Partagez et protégez les des attaques par virus.</h3>
+                            <p>Vous avez envie de partager et d'apprendre à vous protéger des virus, chevaux de Troie, Ramsomware, et autres attaques qui peuvent vous faire tout perdre.</p>
+                            <%= link_to 'Lire la suite', pages_articledeux_path, :class => "more viewmore-4" %>
+                        </div>
                     </div>
                 </div>
             </div>
