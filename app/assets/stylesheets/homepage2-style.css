@@ -28,7 +28,9 @@ a:hover {
 .service-content-cat {
     padding: 20px;
     background: #fff;
-    height: 240px;
+    height: 255px;
+    margin: 15px 0px;
+    border-radius: 5px;
 }
 
 .proteger {
