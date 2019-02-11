@@ -10,22 +10,20 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require_tree .
 
-//= require jquery3
-//= require popper
-//= require bootstrap-sprockets
-
-//= require banner.js
-//= require cd-google-map.js
-//= require custom.js
 //= require jquery.appear.js
 //= require jquery.countTo.js
 //= require lightbox.min.js
 //= require menucustom.js
 //= require mixitup.min.js
-//= require owl.carousel.min.js
+//= require popper
+//= require bootstrap-sprockets
+
+
+//= require banner
 //= require wow.min.js
+//= require home
