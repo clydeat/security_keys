@@ -1,8 +1,10 @@
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
+  	items:4,
   	loop:true,
- //  	autoplay:false
-	// autoplayTimeout:5000
-	// autoplayHoverPause:false
+  	margin:10,
+  	autoplay:true,
+    autoplayTimeout:5000,
   });
 });
+
