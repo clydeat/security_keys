@@ -15,6 +15,9 @@
 //= require activestorage
 //= require turbolinks
 
+//=requires util.js
+
+
 //= require jquery.appear.js
 //= require jquery.countTo.js
 //= require lightbox.min.js
