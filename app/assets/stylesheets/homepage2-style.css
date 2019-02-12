@@ -6,8 +6,16 @@
 /*.cssmenu {
 	color: red !important;
 }*/
+.contourtexte {
+	
+}
+.opac {
+	opacity: 10%;
+}
 
-
+.backcolor {
+    background-color: rgba(0,0,0,.4);
+}
 .d-md-block {
     padding-bottom: 245px !important;
 }
