@@ -11,7 +11,9 @@
     padding: 0px !important;
 }
 
-
+.owl-item {
+	margin-right: 0px !important;
+}
 
 .banniereentree {
 
